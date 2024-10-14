@@ -1,0 +1,106 @@
+.sample-oms-container{
+    background-image: url("https://s3-alpha-sig.figma.com/img/a8a0/11c5/af5a9184dd9fcf61a3aa905498126eeb?Expires=1730073600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=BfV36MIZuiz8Ep1r57zBgATjvaQhXbqxx9l5En1crKVPOYrBFO~1Pst6gL-ciSjUWIDAcL2~SAWDzBYfUCgPNiV0aZo0b6aSGg0LbcgXcHZPaSatlMnX-8quRKPbCnY6gm1agnYgvJ5fWKfXweM~l7CVYc0NEbzVLrui4tmZ3XLbSotiwxUCjmzgPdfYiJOx4AAiT0BaV57p5r7XngKWv40UJuKnhg85jjWAMj39RkAE7itlFZIX~2j69zst38G1OuD-FNgXRwYwh2gMGZILA0-xgwvbs4vBRpbid4JyVqLxfnWdSzQ9XmjY97Pxrv0AwmD1QXrNgR2V3PAj6HlMzg__");
+    background-size: cover;
+    padding: 30px;
+}
+
+.sample-oms-inner-container{
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.sample-oms-heading{
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 55px;
+    text-align: center;
+    padding: 10px;
+}
+
+.sample-oms-cards-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-item{
+    box-shadow: 0px 0px 4px 5px #84848433;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.card-image{
+    width: 357px;
+    height: 276.39px;
+    gap: 0px;
+    border-radius: 5px 5px 0px 0px;
+    border: 0px 0px 1px 0px;
+    opacity: 0px;
+    border-bottom: 2px dotted #B2B2B2;
+}
+
+.card-heading{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 14.3px;
+    text-align: left;
+    padding: 5px;
+}
+
+.card-para{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    color:  #52525B;
+    padding: 5px;
+}
+
+.card-button-first{
+    width: 80%;
+    height: Fixed (40px)px;
+    padding: 10.08px 16.13px 10.08px 16.13px;
+    gap: 10.08px;
+    border-radius: 5px;
+    border: 1.01px 0px 0px 0px;
+    opacity: 0px;
+    background: #7261FF;
+    border: 1.01px solid #7261FF;
+    color:#fff;
+    font-family: Poppins;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.card-button{
+    width: 80%;
+    height: Fixed (40px)px;
+    padding: 10.08px 16.13px 10.08px 16.13px;
+    gap: 10.08px;
+    border-radius: 5px;
+    border: 1.01px 0px 0px 0px;
+    opacity: 0px;
+    border: 1.01px solid #7261FF;
+    color: #7261FF;
+    font-family: Poppins;
+    cursor: pointer;
+    margin: 10px;
+    background-color: #fff;
+}
+
+@media screen and (max-width:768px) {
+    .sample-oms-heading{
+        font-family: Poppins;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 36px;
+        text-align: center;
+    }
+    .sample-oms-cards-container{
+        flex-direction: column;
+    }
+}
